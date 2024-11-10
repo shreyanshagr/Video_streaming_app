@@ -40,7 +40,7 @@ function App() {
 
             <div>
               <VideoPlayer
-                src={`http://localhost:8080/api/v1/videos/${videoId}/master.m3u8`}
+                src={`http://localhost:8080/videos/${videoId}/master.m3u8`}
               ></VideoPlayer>
             </div>
 

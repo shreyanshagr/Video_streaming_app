@@ -11,6 +11,8 @@ public interface VideoService {
 
     Video save(VideoDTO.CreateVideoRequest video, MultipartFile videoFile) throws IOException;
 
+    Video get(String videoId);
+
     Video getByTitle(String title);
 
     public Video getByContentType(String contentType);
